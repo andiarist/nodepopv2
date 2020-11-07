@@ -1,0 +1,31 @@
+{
+  "name": "nodepop",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "pm2 start ecosystem.config.js",
+    "dev": "cross-env DEBUG=nodepopv2:* PORT=3000 NODE_ENV=development nodemon ./bin/www ",
+    "services": "nodemon ./microservices/thumbnailService.js",
+    "init-db": "node ./init-db.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "~1.4.4",
+    "cote": "^1.0.0",
+    "cross-env": "^7.0.2",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-validator": "^6.6.1",
+    "http-errors": "~1.6.3",
+    "i18n": "^0.13.2",
+    "jimp": "^0.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.3",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "pm2": "^4.5.0",
+    "sharp": "^0.26.2"
+  }
+}

@@ -1,0 +1,5 @@
+<ul class="langSelector">
+    <% getLocales().forEach( locale => { %>
+        <li><a href="/change-locale/<%= locale %>"><%= locale.toUpperCase() %></a></li>
+    <% }) %>
+</ul>

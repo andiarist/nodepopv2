@@ -1,0 +1,18 @@
+<table>
+  <tr>
+    <th>Artículo</th>
+    <th>Precio</th>
+    <th>Estado</th>
+    <th>Etiquetas</th>
+    <th>Imagen</th>
+  </tr>
+  <% anuncios.forEach(anuncio => { %>
+    <tr>
+      <td><%= anuncio.name %></td>
+      <td><%= anuncio.price + ' €' %></td>
+      <td><%= anuncio.onSale ? 'Se vende' : 'Se busca' %></td>
+      <td><%= anuncio.tags %></td>
+      <td><a href="<%= anuncio.photo %>"> <img src="<%= anuncio.thumbnail %>" alt="" ></a></td>
+    </tr>
+    <% }) %>
+</table>

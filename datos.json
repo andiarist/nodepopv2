@@ -1,0 +1,35 @@
+[
+    {
+        "name": "patinete",
+        "onSale": true,
+        "price": 250,
+        "photo": "/images/patinete.jpg",
+        "tags": [
+            "lifestyle",
+            "motor"
+        ],
+        "thumbnail": "/images/thumbnails/thumbnail-patinete.jpg"
+    },
+    {
+        "name": "pc",
+        "onSale": false,
+        "price": 620,
+        "photo": "/images/portatil.jpg",
+        "tags": [
+            "work",
+            "lifestyle"
+        ],
+        "thumbnail": "/images/thumbnails/thumbnail-portatil.jpg"
+    },
+    {
+        "name": "carrito",
+        "onSale": true,
+        "price": 780,
+        "photo": "/images/carrito.jpg",
+        "tags": [
+            "lifestyle"
+        ],
+        "thumbnail": "/images/thumbnails/thumbnail-carrito.jpg"
+    }
+    
+]

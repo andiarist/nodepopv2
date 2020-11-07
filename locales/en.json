@@ -1,0 +1,12 @@
+{
+	"Bienvenido a": "Welcome to",
+	"Inicio": "Home",
+	"Artículo": "Article",
+	"Precio": "Price",
+	"Estado": "Status",
+	"Etiquetas": "Tags",
+	"Imagen": "Image",
+	"Se vende": "On Sale",
+	"Se busca": "Wanted",
+	"Seguro que quieres inicializar la BD?(no)/si: ": "Are you sure you want to initialize the BD?(no)/yes: "
+}

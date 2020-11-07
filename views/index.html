@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <header>
+      <h1 class="title"><%= __('Bienvenido a') %> <%= title %></h1>       
+      <% include langSelector.html %>
+    </header>
+
+    <main>
+      <h2 class="breadcrumb"><%= __('Inicio') %></h2>   
+      
+      <% include listadoDeAnunciosWEB.html %>
+    </main> 
+
+  </body>
+</html>
